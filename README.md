@@ -6,14 +6,18 @@ Five CNN architectures were implemented. The best one, **Conv2Dsimple2**  has tw
 
 # Conv2Dsimple2 test metrics
 
+<br />
+
 <div align="center">
-  <img src="TestMetrics.png" width="400px">
+  <img src="TestMetrics.png" width="500px">
 </div>
 
 <br />
 *Shirt* class is the hardest to learn for this classifier. Both miss rate (derived from recall) and precision are minimal for this class.
 
 # Conv2Dsimple2 10-class confusion matrix on test set
+
+<br />
 
 <div align="center">
   <img src="ConfMat.png" width="400px">
