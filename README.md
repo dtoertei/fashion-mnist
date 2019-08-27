@@ -7,16 +7,19 @@ Five CNN architectures were implemented. The best one, **Conv2Dsimple2**  has tw
 # Conv2Dsimple2 test metrics
 
 <div align="center">
-  <img src="TestMetrics.png" width="300px">
+  <img src="TestMetrics.png" width="400px">
 </div>
 
+<br />
 *Shirt* class is the hardest to learn for this classifier. Both miss rate (derived from recall) and precision are minimal for this class.
 
 # Conv2Dsimple2 10-class confusion matrix on test set
 
 <div align="center">
-  <img src="ConfMat.png" width="300px">
+  <img src="ConfMat.png" width="400px">
 </div>
+
+<br />
 
 Here is provided a somewhat better level of comprehension behind metrics (rows are classifier's prediction, columns represents the ground truth): *shirt* and *top* are mixed most often. Setting class weights to a higher value for this classifier does not do much good - it decreases recall. The incapacity to distinguish between these two classes is the main drawback of *Conv2Dsimple2*.
 
